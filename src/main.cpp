@@ -300,7 +300,7 @@ public:
 
 		if (!_infoCreated) return;
 
-		if (kc == cocos2d::enumKeyCodes::KEY_Enter) {
+		if (kc == cocos2d::enumKeyCodes::KEY_Return) {
 			stopRoulette();
 		}
 	}
